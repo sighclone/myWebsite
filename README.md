@@ -1,4 +1,4 @@
-# myWebsite (sighclone.tech)
+# myWebsite (www.sighclone.tech)
 Source code of my personal portfolio website
 copyright (c) 2021 https://github.com/sighclone
 
