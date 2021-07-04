@@ -1,4 +1,4 @@
-# myWebsite (www.sighclone.tech)
+# myWebsite (http://sighclone.tech)
 Source code of my personal portfolio website
 
 
