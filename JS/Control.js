@@ -54,8 +54,8 @@ function softwareListClose(){
     }
 }
 
-function closeFunTime(){
-    var x = document.getElementById("FunTime");
+function closeTIN(){
+    var x = document.getElementById("TIN");
     if (x.style.display === "none") {
     x.style.display = "block";
     }
@@ -64,8 +64,8 @@ function closeFunTime(){
     }
 }
 
-function FunTimeControl(){
-    var x = document.getElementById("FunTime");
+function TINControl(){
+    var x = document.getElementById("TIN");
     if (x.style.display === "block") {
       x.style.display = "none";
     }
@@ -235,4 +235,24 @@ function aboutControl(){
     else {
       x.style.display = "block";
     }
+}
+
+function closeEasyThinker(){
+  var x = document.getElementById("EasyThinker");
+  if (x.style.display === "none") {
+  x.style.display = "block";
+  }
+  else {
+      x.style.display = "none";
+  }
+}
+
+function EasyThinkerControl(){
+  var x = document.getElementById("EasyThinker");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+  else {
+    x.style.display = "block";
+  }
 }

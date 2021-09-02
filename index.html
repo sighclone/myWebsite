@@ -69,47 +69,73 @@
 
 <div id="softwareList" class="List">
     <div class="startMenuTitle">Softwares</div>
-    <button id="listItem" class="listItem" onclick="startMenuControl();softwareListClose();FunTimeControl();resetGS();">
-        View_FunTime.exe
+    <button id="listItem" class="listItem" onclick="startMenuControl();softwareListClose();TINControl();resetGS();">
+        View_TIN
     </button>
-    <button id="listItem" class="listItem" onclick="startMenuControl();softwareListClose();DayumZILControl();resetGS();">
-        View_DayumZIL.exe
+    <button id="listItem" class="listItem" onclick="startMenuControl();softwareListClose();zilminerGUIControl();resetGS();">
+        View_zilminerGUI
+    </button>
+    <button id="listItem" class="listItem" onclick="startMenuControl();softwareListClose();EasyThinkerControl();resetGS();">
+        View_EasyThinker
     </button>
     <button id="listItem" class="listItem" onclick="startMenuControl();softwareListClose();StudyDashControl();resetGS();">
-        View_StudyDash.exe
-    </button>
+        View_StudyDash
     <button id="listItem" class="listItem"  onclick="startMenuControl();softwareListClose();BruhBotControl();resetGS();">
-        View_BruhBot.exe
+        View_BruhBot
     </button>
-    <button id="listItem" class="listItem" onclick="startMenuControl();softwareListClose();FileProteccControl();resetGS();">
-        View_FileProtecc.exe
+    <button id="listItem" class="listItem" onclick="startMenuControl();softwareListClose();DayumZILControl();resetGS();">
+        View_DayumZIL
     </button>
+    <!---https://github.com/sighclone/EasyThinker-->
+
 </div>
 
-<div id="FunTime" class="showcaseArea">
-    <button class="showcaseTitleClose" onclick="closeFunTime();"></button>
+<div id="TIN" class="showcaseArea">
+    <button class="showcaseTitleClose" onclick="closeTIN();"></button>
     <button class="showcaseTitleExpand"></button>
     <button class="showcaseTitleMinimise"></button>
     <div id = "showcaseTitle" class="showcaseTitle">
-        FunTime Suite of Applications (in-development)
+        TextInNotepad (TIN)
     </div>
     <br>
     <br>
     <div id="showcaseInfo" class="showcaseInfo">
-    <h4>FunTime Fireworks</h4>
-        A super useful and handy encryption tool with a file encoder, text string encoder, folder encoder and more. Built using python and based on a custom encryption algorithm, it becomes highly unlikely that someone can get a tool to systematically crack your files.
+    <h4>What is TIN?</h4>
+        A python based computer malware that writes text into notepad.
 
-    <h4>FunTime Coupe</h4>
-        Automated web browser storage tageted password grabber built using python and batch with a focus on deep searching of passwords from most of the popular browsers that are be based on chrome(/ium) and firefox frameworks.
+    <h4>What does TIN do?</h4>
+        TIN locks down the user's keyboard and forces the mouse position to (0, 0). Then it copies itself to the startup folder, followed by opening notepad and writing text in. TIN also has an anti Ctrl+Alt+Del system. TIN constantly checks if Task Manager is open and if it is opened, TIN will instantly shut the computer down.
 
-    <h4>FunTime Kountry</h4>
-        A tool that enables you to truly delete any file on solid-state drives (SSDs) by modifying (and therefore corrupting) the file's memory locations on the SSD, and then deleting them from your device.
     </div>
 
             
     <div id="guthib" class="guthib">
-        <a href="https://github.com/sighclone/FunTime" target="_blank">Click here</a> to open this project on github.
+        <a href="https://github.com/sighclone/TextInNotepad" target="_blank">Click here</a> to open this project on github.
     </div>
+</div>
+
+
+
+
+<div id="zilminerGUI" class="showcaseArea">
+    <button class="showcaseTitleClose" onclick="closezilminerGUI();"></button>
+    <button class="showcaseTitleExpand"></button>
+    <button class="showcaseTitleMinimise"></button>
+    <div id = "showcaseTitle" class="showcaseTitle">
+        zilminerGUI (in-development)
+    </div>
+    <br>
+    <br>
+    <div id="showcaseInfo" class="showcaseInfo">
+    <h4>zilminerGUI</h4>
+        After 2019, the official zilminer stopped updates to the GUI. As a consequence, zilminer was no longer accepting the new wallet address format (that starts with zil...). Therefore, I have made zilminerGUI as an updated GUI for zilminer. zilminerGUI also remembers your previous session's setup and starts it for you!
+    </div>
+
+            
+    <div id="guthib" class="guthib">
+        <a href="https://github.com/sighclone/zilminerGUI/releases" target="_blank">Click here</a> to download this software.
+    </div>
+
 </div>
 
 <div id="DayumZIL" class="showcaseArea">
@@ -122,7 +148,7 @@
     <br>
     <br>
     <div id="showcaseInfo" class="showcaseInfo">
-    <h4>DayumZIL v1.0</h4>
+    <h4>DayumZIL (In development)</h4>
         Built using VB.NET (framework), Batch, Python and C, DayumZIL is a GUI driven, pool independent Zilliqa dual mining tool that allows you to choose any two mining pools of your choice and thus removes the dependency on pool for support of dual mining.  It is not a miner nor a tool dedicated to a pool, this is just a tool that automatically switches between pre-existing miners and pools according to your choice, put into action with a clean GUI for easy use. For mining ZIL, zilminer is included with the package. The program is completely free and open source.
     </div>
 
@@ -147,7 +173,7 @@
     <br>
     <br>
     <div id="showcaseInfo" class="showcaseInfo">
-    <h4>DayumZIL v1.0</h4>
+    <h4>BruhBot</h4>
         A discord bot built in python that supports any message indicative of a bruh moment. The bot essentially scans a message for the word bruh and replies appropriately. This bot is still in pre-production. If you would like to add the bot to your server, please contact me for the same.
     </div>
 
@@ -177,30 +203,6 @@
         <br>
         Or, <a href="https://github.com/sighclone/StudyDash-Desktop/" target="_blank">click here</a> to open this project on github.
     </div>
-</div>
-
-
-<div id="FileProtecc" class="showcaseArea">
-    <button class="showcaseTitleClose" onclick="closeFileProtecc();"></button>
-    <button class="showcaseTitleExpand"></button>
-    <button class="showcaseTitleMinimise"></button>
-    <div id = "showcaseTitle" class="showcaseTitle">
-        FileProtecc (in-development)
-    </div>
-    <br>
-    <br>
-    <div id="showcaseInfo" class="showcaseInfo">
-    <h4>FileProtecc</h4>
-        It protecc, it not attacc, but most importantly, it saves you - Sun Tzu <br>
-        FileProtecc is a utility tool to protect your file against modification, republishers, plagiarism, etc. There are many features included, such as, email notification about modifications elsewhere, forced logging of any and all modifications, etc. By getting a premium license you can unlock additional features such as encryption to protect the file from being opened by any other software except for FileProtecc.<br><br>
-        This project is closed source.
-    </div>
-
-            
-    <div id="guthib" class="guthib">
-        <a href="https://www.sighclone.tech/Downloads/FileProtecc.zip" target="_blank">Click here</a> to download this software.
-    </div>
-
 </div>
 
 
@@ -307,7 +309,7 @@
 
             
     <div id="guthib" class="guthib">
-        <a href="https://github.com/sighclone/FunTime" target="_blank">Click here</a> to open this project on github.
+        <a href="https://github.com/sighclone/myWebsite" target="_blank">Click here</a> to open this project on github.
     </div>
 </div>
 
