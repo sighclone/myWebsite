@@ -7,12 +7,13 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: auto;
 	background: rgb(85, 85, 85);
-	background-image: url('https://media.giphy.com/media/Wm9XlKG2xIMiVcH4CP/giphy.gif');
-	background-repeat: no-repeat;
+	background-image: url('https://media.giphy.com/media/CD8CmiZJ9mOW80DFjE/giphy.gif');
+	background-repeat: repeat-y;
 	background-size: 100%;
-	background-position-y:top;
+	background-position-x: center;
+	background-position-y: -30vmin;
 }
 
 #footer{
@@ -304,6 +305,7 @@ a{
 	padding-bottom: 5px;
 	text-align: center;
 	margin-top: -17px;
+	border-radius: 15px;
 	opacity: 100%;
 	background-color: rgb(46, 46, 46);
 }

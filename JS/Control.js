@@ -74,8 +74,8 @@ function TINControl(){
     }
 }
 
-function closeDayumZIL(){
-    var x = document.getElementById("DayumZIL");
+function closeEasyThinker(){
+    var x = document.getElementById("EasyThinker");
     if (x.style.display === "none") {
     x.style.display = "block";
     }
@@ -84,8 +84,8 @@ function closeDayumZIL(){
     }
 }
 
-function DayumZILControl(){
-    var x = document.getElementById("DayumZIL");
+function EasyThinkerControl(){
+    var x = document.getElementById("EasyThinker");
     if (x.style.display === "block") {
       x.style.display = "none";
     }
@@ -249,6 +249,26 @@ function closeEasyThinker(){
 
 function EasyThinkerControl(){
   var x = document.getElementById("EasyThinker");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+  else {
+    x.style.display = "block";
+  }
+}
+
+function closezilminerGUI(){
+  var x = document.getElementById("zilminerGUI");
+  if (x.style.display === "none") {
+  x.style.display = "block";
+  }
+  else {
+      x.style.display = "none";
+  }
+}
+
+function zilminerGUIControl(){
+  var x = document.getElementById("zilminerGUI");
   if (x.style.display === "block") {
     x.style.display = "none";
   }
