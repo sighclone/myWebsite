@@ -2,7 +2,7 @@
 Source code of my personal portfolio website
 
 
-copyright (c) 2021 https://github.com/sighclone
+copyright (c) 2021 [sighclone](https://github.com/sighclone)
 
 Website link: http://sighclone.tech
 
